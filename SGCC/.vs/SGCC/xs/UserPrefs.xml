@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{6AB1BDDE-0685-EA78-E867-BFACC68058D9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerBehaviour.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CloudBehavier.cs" Line="19" Column="39" />
+      <File FileName="Assets/Scripts/PlayerBehaviour.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SGCC" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerBehaviour.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f27741e4-962b-4033-91e6-91093d5db89b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
