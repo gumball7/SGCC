@@ -19,7 +19,7 @@ public class EnterScript : MonoBehaviour
     {
         if (scene.Length == 0)
         {
-            Debug.LogError("Warning: target scene is not set in "+transform.parent.name);
+            Debug.LogWarning("Target scene is not set in "+transform.parent.name);
         }
     }
 
@@ -43,7 +43,7 @@ public class EnterScript : MonoBehaviour
         textScale.y = scaleNum * baseScale.y;
         this.transform.GetChild(0).transform.localScale = textScale;
 
-        if (Input.GetKeyDown("return"))
+        if (Input.GetKeyDown("return") && isActive)
         {
             Debug.Log("Loading scene " + scene + "...");
             SceneManager.LoadScene(scene, LoadSceneMode.Single);
