@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 4997450643461995589
     second: fish pond_6
+  - first:
+      213: -2921422170750503
+    second: fish pond_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -84,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,10 +113,10 @@ TextureImporter:
       name: fish pond_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 1813
-        width: 249
-        height: 250
+        x: 29
+        y: 7240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82137c3ed6fe8e84b9cefc2564c72140
+      spriteID: 7ba697caaf9d4c3428bbd4fe18d307b6
       internalID: 2874791540081161803
       vertices: []
       indices: 
@@ -131,10 +134,10 @@ TextureImporter:
       name: fish pond_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 1513
-        width: 249
-        height: 250
+        x: 29
+        y: 6240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 669c12b9212a6ab4888b7fe0f9066c8c
+      spriteID: ba019081e9df9274d95e7b10a2b6559c
       internalID: 3658635840241500956
       vertices: []
       indices: 
@@ -152,10 +155,10 @@ TextureImporter:
       name: fish pond_2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 1213
-        width: 249
-        height: 249
+        x: 29
+        y: 5240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c6b9da8f442d44296fb99e6596ac41
+      spriteID: b130e809c1faea74dbe244df03e03c33
       internalID: 838129117478323421
       vertices: []
       indices: 
@@ -173,10 +176,10 @@ TextureImporter:
       name: fish pond_3
       rect:
         serializedVersion: 2
-        x: 28
-        y: 914
-        width: 249
-        height: 249
+        x: 29
+        y: 4240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f10ea9def479fa4eaf1f83ad1d3946d
+      spriteID: cc8c9e95b9029be4eb558ff913d6ead9
       internalID: -4765324400578038957
       vertices: []
       indices: 
@@ -194,10 +197,10 @@ TextureImporter:
       name: fish pond_4
       rect:
         serializedVersion: 2
-        x: 28
-        y: 613
-        width: 249
-        height: 249
+        x: 29
+        y: 3240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +208,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b97d80cdb278f484aae5ae981d151c46
+      spriteID: 551d80a20f2028a45b516f7f5879f52c
       internalID: 1452096661402185918
       vertices: []
       indices: 
@@ -215,10 +218,10 @@ TextureImporter:
       name: fish pond_5
       rect:
         serializedVersion: 2
-        x: 28
-        y: 314
-        width: 249
-        height: 249
+        x: 29
+        y: 2240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6ca48dc2515a245a8b1c4a02e65407
+      spriteID: a2fbd9df8c3ea5c45af9b1b60061f922
       internalID: -5016353324828594702
       vertices: []
       indices: 
@@ -236,10 +239,10 @@ TextureImporter:
       name: fish pond_6
       rect:
         serializedVersion: 2
-        x: 28
-        y: 13
-        width: 249
-        height: 249
+        x: 29
+        y: 1240
+        width: 930
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +250,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97615aad3a7432541a6b90f8505a6e51
+      spriteID: eb8b6041c8e82f041ad57643fba5bd8a
       internalID: 4997450643461995589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish pond_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 240
+        width: 930
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78cbb78aa7cb14ba886a5d774dbe99
+      internalID: -2921422170750503
       vertices: []
       indices: 
       edges: []
