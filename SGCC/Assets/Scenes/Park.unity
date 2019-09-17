@@ -207,7 +207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182105910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.2, y: 0.15, z: 90}
+  m_LocalPosition: {x: 7.26, y: 0.15, z: 90}
   m_LocalScale: {x: 1.109, y: 1.022, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1095202692}
   speed: 0.08
-  baseScale: {x: 1, y: 1}
+  baseScale: {x: 1.5, y: 1.5}
   scene: Buildings
 --- !u!50 &311974142
 Rigidbody2D:
@@ -303,7 +303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311974139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.04, y: -3.55, z: 90}
+  m_LocalPosition: {x: 1.06, y: -3, z: 90}
   m_LocalScale: {x: 1.109, y: 1.022, z: 1}
   m_Children:
   - {fileID: 1759287564}
@@ -369,8 +369,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1095202692}
   speed: 0.08
-  baseScale: {x: 1, y: 1}
-  scene: Trees
+  baseScale: {x: 1.5, y: 1.5}
+  scene: Trees_Minigame
 --- !u!50 &378556425
 Rigidbody2D:
   serializedVersion: 4
@@ -400,7 +400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378556422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.32, y: -3.55, z: 90}
+  m_LocalPosition: {x: -10.74, y: -2.96, z: 90}
   m_LocalScale: {x: 1.109, y: 1.022, z: 1}
   m_Children:
   - {fileID: 1549300653}
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1095202692}
   speed: 0.08
-  baseScale: {x: 1, y: 1}
+  baseScale: {x: 1.5, y: 1.5}
   scene: Fish
 --- !u!50 &918584186
 Rigidbody2D:
@@ -771,7 +771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918584183}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.46, y: -3.55, z: 90}
+  m_LocalPosition: {x: -5.96, y: -2.96, z: 90}
   m_LocalScale: {x: 1.109, y: 1.022, z: 1}
   m_Children:
   - {fileID: 950829702}
@@ -1372,7 +1372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549300652}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.2146077, y: 5.28, z: -90}
+  m_LocalPosition: {x: 4.2146077, y: 6.18, z: -90}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 378556426}
