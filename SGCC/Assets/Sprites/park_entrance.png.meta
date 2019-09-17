@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,10 +134,10 @@ TextureImporter:
       name: park_entrance_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 22
-        width: 230
-        height: 296
+        x: 0
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0af7602e19e536d4cabbe0af38bd842f
+      spriteID: cf5d8462feeec47fb8e3f58de9fd9bed
       internalID: 6511641035899209013
       vertices: []
       indices: 
@@ -131,10 +155,10 @@ TextureImporter:
       name: park_entrance_1
       rect:
         serializedVersion: 2
-        x: 426
-        y: 32
-        width: 231
-        height: 286
+        x: 35
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a873b125da8db14aaed46c644b81c22
+      spriteID: 9920e301b66ee413e8671ec50b5e4837
       internalID: 2164662999872556630
       vertices: []
       indices: 
@@ -152,10 +176,10 @@ TextureImporter:
       name: park_entrance_2
       rect:
         serializedVersion: 2
-        x: 776
-        y: 32
-        width: 231
-        height: 286
+        x: 70
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbbc5e86d8be684db50d04fb7b55c6a
+      spriteID: 76c8d212c30a341fabadb7b2aa00bcca
       internalID: -8896075188906159982
       vertices: []
       indices: 
@@ -173,10 +197,10 @@ TextureImporter:
       name: park_entrance_3
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 32
-        width: 231
-        height: 286
+        x: 105
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +208,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a4b6a5b0bd2aa41a217abd40a0642f
+      spriteID: 95a07d682b34243b7a29a21e8d4ed7a3
       internalID: -5733492365818040591
       vertices: []
       indices: 
@@ -194,10 +218,10 @@ TextureImporter:
       name: park_entrance_4
       rect:
         serializedVersion: 2
-        x: 1476
-        y: 32
-        width: 231
-        height: 286
+        x: 140
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a0cd15a819a3e4ea40c2ac8cb38afc
+      spriteID: 593caebbc0fd24b64b2ea982c2eac90c
       internalID: -3880576935253182125
       vertices: []
       indices: 
@@ -215,10 +239,10 @@ TextureImporter:
       name: park_entrance_5
       rect:
         serializedVersion: 2
-        x: 1827
-        y: 32
-        width: 229
-        height: 286
+        x: 175
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61b17f5be81cf2d45a19f5da212c27ea
+      spriteID: 0eb477401cfe947a8baf300f4b683962
       internalID: -7790464721127902855
       vertices: []
       indices: 
@@ -236,10 +260,10 @@ TextureImporter:
       name: park_entrance_6
       rect:
         serializedVersion: 2
-        x: 2176
-        y: 32
-        width: 231
-        height: 286
+        x: 210
+        y: 0
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8497e928ad25364aace3e8e108ca166
+      spriteID: 2a5661bda01434e799d79d746b484243
       internalID: 1570426857281888010
       vertices: []
       indices: 
