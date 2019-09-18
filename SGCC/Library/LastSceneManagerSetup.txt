@@ -1,17 +1,21 @@
 sceneSetups:
-- path: Assets/Scenes/Buildings.unity
+- path: Assets/Scenes/menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/ScoreMenu.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/menu.unity
-  isLoaded: 1
+- path: Assets/Scenes/Buildings.unity
+  isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Park.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Trees_Minigame.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
