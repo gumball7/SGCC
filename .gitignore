@@ -37,10 +37,3 @@ sysinfo.txt
 *.dll
 *.dll
 *.log
-*.txt
-SGCC/Library/assetDatabase3
-*.meta
-SGCC/Library/assetDatabase3
-*.txt
-*.json
-*.dwlt
