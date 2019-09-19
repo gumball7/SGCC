@@ -68,13 +68,13 @@
     <Compile Include="Assets\Scripts\CloudBehavier.cs" />
     <Compile Include="Assets\Scripts\CountdownBehaviour.cs" />
     <Compile Include="Assets\Scripts\EnterScript.cs" />
-    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\PointSpriteBehaviour.cs" />
     <Compile Include="Assets\Scripts\ScoreMenu.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\SocialUpdate.cs" />
+    <Compile Include="Assets\Scripts\TreesGameManagerScript.cs" />
     <Compile Include="Assets\Scripts\UpdateEmotional.cs" />
     <Compile Include="Assets\Scripts\updatePhysical.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

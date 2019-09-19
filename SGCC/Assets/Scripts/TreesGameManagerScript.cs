@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManagerScript : MonoBehaviour
+public class TreesGameManagerScript : MonoBehaviour
 {
 
     public string gameState = "starting";
@@ -99,6 +99,8 @@ public class GameManagerScript : MonoBehaviour
         foreach (Rigidbody2D falling in GameObject.Find("FallingObjectParent").GetComponentsInChildren<Rigidbody2D>()){
             falling.constraints = RigidbodyConstraints2D.FreezeAll;
         }
+        MainMenu.physicalPoints += points;
+
 
         SceneManager.LoadScene("Park", LoadSceneMode.Single);
     }

@@ -13,6 +13,6 @@ public class UpdateEmotional : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<TextMesh>().text = MainMenu.emotionalPoints + "";
     }
 }

@@ -13,6 +13,6 @@ public class SocialUpdate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<TextMesh>().text = MainMenu.physicalPoints + "";
     }
 }

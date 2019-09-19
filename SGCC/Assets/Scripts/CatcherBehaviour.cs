@@ -29,7 +29,7 @@ public class CatcherBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GameObject.Find("GameManager").GetComponent<GameManagerScript>().addPoint(10);
+        GameObject.Find("GameManager").GetComponent<TreesGameManagerScript>().addPoint(10);
         GameObject pointSprite = Instantiate(pointPrefab, collision.transform.position, Quaternion.identity);
         pointSprite.transform.parent = GameObject.Find("FallingObjectParent").transform;
         Destroy(collision.gameObject);
