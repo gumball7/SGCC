@@ -922,7 +922,7 @@ MonoBehaviour:
   player: {fileID: 1095202692}
   speed: 0.08
   baseScale: {x: 1, y: 1}
-  scene: Fish
+  scene: Fish_Minigame
 --- !u!50 &918584186
 Rigidbody2D:
   serializedVersion: 4
