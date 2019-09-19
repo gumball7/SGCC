@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class UpdateEmotional : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -13,6 +13,6 @@ public class UpdateEmotional : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<TextMesh>().text = MainMenu.emotionalPoints + "";
+        GetComponent<TextMeshProUGUI>().text = MainMenu.emotionalPoints + "";
     }
 }

@@ -34,3 +34,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.dll
+*.log
+SGCC/Library/assetDatabase3
+SGCC/Library/metadata/4b/4bb780e4872898244ba642084f6fe2c7
+*.pdb

@@ -67,7 +67,7 @@ public class TreesGameManagerScript : MonoBehaviour
 
         if (timeToNext < 0) {
             spawnNew();
-            timeToNext = Random.Range(1, 2);
+            timeToNext = 2;
         }
 
         timeSlider.value = timeState / timeTotal;
@@ -99,7 +99,7 @@ public class TreesGameManagerScript : MonoBehaviour
         foreach (Rigidbody2D falling in GameObject.Find("FallingObjectParent").GetComponentsInChildren<Rigidbody2D>()){
             falling.constraints = RigidbodyConstraints2D.FreezeAll;
         }
-        MainMenu.physicalPoints += points;
+        MainMenu.physicalPoints = MainMenu.physicalPoints + points;
 
 
         SceneManager.LoadScene("Park", LoadSceneMode.Single);
