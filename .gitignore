@@ -40,3 +40,7 @@ sysinfo.txt
 *.txt
 SGCC/Library/assetDatabase3
 *.meta
+SGCC/Library/assetDatabase3
+*.txt
+*.json
+*.dwlt
