@@ -67,7 +67,7 @@ public class TreesGameManagerScript : MonoBehaviour
 
         if (timeToNext < 0) {
             spawnNew();
-            timeToNext = Random.Range(1, 2);
+            timeToNext = 2;
         }
 
         timeSlider.value = timeState / timeTotal;
