@@ -74,8 +74,9 @@
     <Compile Include="Assets\Scripts\PointSpriteBehaviour.cs" />
     <Compile Include="Assets\Scripts\ScoreMenu.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+    <Compile Include="Assets\Scripts\SocialUpdate.cs" />
+    <Compile Include="Assets\Scripts\UpdateEmotional.cs" />
     <Compile Include="Assets\Scripts\updatePhysical.cs" />
-    <Compile Include="Assets\UpdateEmotional.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
