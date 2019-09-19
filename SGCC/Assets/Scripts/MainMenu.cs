@@ -9,8 +9,7 @@ public class MainMenu : MonoBehaviour
     public static int emotionalPoints = 0;
     public void PlayGame()
     {
-        SceneManager.LoadScene("Buildings");
-        SceneManager.UnloadSceneAsync("menu");
+        SceneManager.LoadScene("Buildings", LoadSceneMode.Single);
     }
     public void QuitGame()
     {
