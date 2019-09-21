@@ -21,6 +21,6 @@ public class PointSpriteBehaviour : MonoBehaviour
         if (state < 0) { state = 0; kill = true; }
         gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, state);
 
-        if (kill) Destroy(this);
+        if (kill) Destroy(this.gameObject);
     }
 }
