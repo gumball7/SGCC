@@ -62,17 +62,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FishBehaviour.cs" />
     <Compile Include="Assets\Scripts\BoundaryBehaviour.cs" />
     <Compile Include="Assets\Scripts\CatcherBehaviour.cs" />
     <Compile Include="Assets\Scripts\CatcherBehavious.cs" />
     <Compile Include="Assets\Scripts\CloudBehavier.cs" />
     <Compile Include="Assets\Scripts\CountdownBehaviour.cs" />
     <Compile Include="Assets\Scripts\EnterScript.cs" />
+    <Compile Include="Assets\Scripts\FishBehaviour.cs" />
     <Compile Include="Assets\Scripts\FishGameManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\PointSpriteBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PosterBehaviour.cs" />
     <Compile Include="Assets\Scripts\ScoreMenu.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\SocialUpdate.cs" />
