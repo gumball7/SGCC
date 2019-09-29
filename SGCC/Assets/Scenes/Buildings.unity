@@ -1161,7 +1161,7 @@ MonoBehaviour:
   player: {fileID: 360159200}
   speed: 0.08
   baseScale: {x: 1, y: 1}
-  scene: 
+  scene: CC
 --- !u!50 &445258554
 Rigidbody2D:
   serializedVersion: 4
