@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trees_Minigame.unity
     guid: 771b4ebcd2bbd044a9e058fb940d432a
+  - enabled: 1
+    path: Assets/Scenes/Fish_Minigame.unity
+    guid: 2c07b25a2c89d664aa6e4d32c8a0d28d
+  - enabled: 1
+    path: Assets/Scenes/CC.unity
+    guid: ee8acf46b7d90784b9b3bb4d959c6b3d
   m_configObjects: {}
