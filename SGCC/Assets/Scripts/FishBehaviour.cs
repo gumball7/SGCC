@@ -54,11 +54,11 @@ public class FishBehaviour : MonoBehaviour
             targetPos = GameObject.Find("GameManager").GetComponent<FishGameManager>().randomPoint()*2;
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, 0.1f);
+        transform.position = Vector3.MoveTowards(transform.position, targetPos, 0.2f);
 
         Vector2 moveDirection = (Vector2)transform.position - targetPos;
         float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
 
-        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle, Vector3.forward), 0.2f);
+        transform.rotation = Quaternion.Lerp(Quaternion.AngleAxis(angle, Vector3.forward), transform.rotation, 0.9f);
     }
 }
