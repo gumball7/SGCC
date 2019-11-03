@@ -9,7 +9,7 @@ public class FishBehaviour : MonoBehaviour
     private string state = "spawned";
     // spawned: spawning or spawned
     // ending : closing, not clickable
-    public float speedOpacity = 0.08f;
+    public float speedOpacity = 0.04f;
 
     private float timeState = 0;
     private float opacityState = 0;
@@ -30,7 +30,7 @@ public class FishBehaviour : MonoBehaviour
         if (state == "ending" && opacityState > 0) opacityState -= speedOpacity;
         if (opacityState < 0) opacityState = 0;
 
-        if (timeState > 2) state = "ending";
+        if (timeState > 1) state = "ending";
 
         gameObject.GetComponent<Renderer>().material.color = new Color(1f, 1f, 1f, opacityState);
 
