@@ -493,7 +493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206852396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.2146077, y: 5.28, z: -90}
+  m_LocalPosition: {x: 4.59, y: 6.32, z: -90}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 657185934}
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aa191aee389a3e49a8a383f5eea9347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1081563732}
 --- !u!61 &477590723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1320,7 +1320,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.225108, y: 3.755026}
+  m_Offset: {x: 4.823674, y: 4.1000834}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1331,7 +1331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.703361, y: 1.4028764}
+  m_Size: {x: 1.927824, y: 2.0929909}
   m_EdgeRadius: 0
 --- !u!114 &657185932
 MonoBehaviour:
@@ -1378,7 +1378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657185930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.94, y: -8.5, z: 100}
+  m_LocalPosition: {x: -12.94, y: -7.38, z: 100}
   m_LocalScale: {x: 1.109, y: 1.022, z: 1}
   m_Children:
   - {fileID: 206852397}
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aa191aee389a3e49a8a383f5eea9347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1081563732}
 --- !u!61 &1169258644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4055,20 +4055,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'Did youDid you know that Singapore has a S$3 billion national blueprint to create
-    a new network of community and educational institutions? '
+  - 'Did you know that Singapore has a S$3 billion national blueprint to create a
+    new network of community and educational institutions? '
   - 'This blueprint will roll out more than 30,000 learning places for seniors by
     2030. '
-  - 'It is called the National Silver Academy, comprising up to  '
-  - '100 voluntary welfare organisations, community organisations and post-secondary
-    education institutions when it is launched.   '
+  - 'It is called the National Silver Academy, comprising up to 100 voluntary welfare
+    organisations, community organisations and post-secondary education institutions
+    when it is launched. '
   - 'It aims to curate a wide range of courses in areas such as information technology,
-    social media, photography and the arts. '
-  - "which seniors can take up not only for employment, but also for interest.\_  "
-  - 'Singapore has also put a lot of affort into its community centres,  '
-  - 'by integrating them with courses for the elderly such as embracing technology
-    and keeping fit. '
-  - You can experience these courses by going right ->
+    social media, photography and the arts, which seniors can take for employment
+    or interest.   '
+  - 'Singapore has also put a lot of affort into its community centres, by integrating
+    them with courses for the elderly such as embracing technology and keeping fit. '
+  - You can experience these courses by going right
   name: Friendly CC assistant
   speakerImage: {fileID: 21300000, guid: c5052e182add6d64a87416e787548d2c, type: 3}
 --- !u!212 &1653700231
@@ -4166,7 +4165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681939141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 1.6, z: -32.058594}
+  m_LocalPosition: {x: 0.47, y: 1.6, z: -32.058594}
   m_LocalScale: {x: 0.3273, y: 0.3465, z: 1}
   m_Children: []
   m_Father: {fileID: 963402543}
@@ -4416,7 +4415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829170617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.74, y: 2.18, z: 0}
+  m_LocalPosition: {x: -3.61, y: 2.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 963402543}
@@ -4715,7 +4714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953796687}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.97, y: -2.83, z: 42.058594}
+  m_LocalPosition: {x: -4.06, y: -2.83, z: 42.058594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 632339357}
