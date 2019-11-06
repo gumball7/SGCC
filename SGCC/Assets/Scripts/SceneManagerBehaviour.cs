@@ -5,16 +5,20 @@ using UnityEngine;
 public class SceneManagerBehaviour : MonoBehaviour
 {
     public GameObject player;
-    public Transform key;
+    public SpriteAnimBehaviour key;
     public DialogBehaviour dialogManager;
     public Dialog[] dialogs;
 
     private int dialogState = 0;
+    private int latest = -1;
 
     // Start is called before the first frame update
     void Start()
     {
-        key.localScale = new Vector3(0, 0, 0);
+        key.freq = 0;
+        key.initScale = new Vector3(0, 0, 0);
+        key.transform.localScale = new Vector3(0, 0, 0);
+        player.GetComponent<PlayerBehaviour>().speed = 0;
     }
 
     // Update is called once per frame
@@ -22,19 +26,23 @@ public class SceneManagerBehaviour : MonoBehaviour
     {
         if (dialogState < dialogs.Length)
         {
-            dialogManager.setDialog(dialogs[dialogState].getDialog());
-            dialogManager.setActive(true);
+            if (latest != dialogState)
+            {
+                dialogManager.setDialog(dialogs[dialogState].getDialog());
+                dialogManager.setActive(true);
+                latest = dialogState;
+            }
             if (dialogManager.isDone)
             {
                 dialogState++;
             }
         }
-        else { return; }
-        Debug.Log(dialogState); 
-        if (dialogState == 1)
+        if (dialogState == 2)
         {
-            key.localScale = new Vector3(1, 1, 0);
-            key.GetComponent<SpriteAnimBehaviour>().freq = 1;
+            key.freq = 0.9;
+            key.initScale = new Vector3(1, 1, 0);
+            key.transform.localScale = new Vector3(1, 1, 0);
+            player.GetComponent<PlayerBehaviour>().speed = 5;
         }
     }
 }

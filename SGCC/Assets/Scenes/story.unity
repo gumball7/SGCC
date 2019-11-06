@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1146778617}
-  key: {fileID: 600773807}
+  key: {fileID: 600773804}
   dialogManager: {fileID: 226740491}
   dialogs:
   - {fileID: 510189898}
@@ -536,9 +536,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 2
-  name: 
-  speakerImage: {fileID: 0}
+  - No problem ah boy...
+  name: John
+  speakerImage: {fileID: 6453561030650598409, guid: d6a3d78aba8b945ecbd8d8ab1e62dc05,
+    type: 3}
 --- !u!114 &510189898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,8 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - Thanks for sending me to school so early in the morning grand pappy johnny
-  - Thanks for sending me to school so early in the morning grand pappy johnny
+  - Thanks for sending me to school so early in the morning gong gong!
   name: Ryan
   speakerImage: {fileID: 21300000, guid: c5052e182add6d64a87416e787548d2c, type: 3}
 --- !u!1 &577972952
@@ -1812,7 +1812,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699343805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.03, y: 0.88, z: 0}
+  m_LocalPosition: {x: -1.03, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146778622}

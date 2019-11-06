@@ -24,7 +24,6 @@ public class Dialog : MonoBehaviour
     {
         Dialog dialog = new Dialog();
         dialog.dialog = this.dialog;
-        Debug.Log("here");
         dialog.sentences = new Queue<string>();
         foreach (string s in dialog.dialog)
         {

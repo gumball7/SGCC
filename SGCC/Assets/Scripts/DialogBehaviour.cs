@@ -34,17 +34,18 @@ public class DialogBehaviour : MonoBehaviour
         if (active)
         {
             targetPos = activePos.position;
-            isDone = true;
+            isDone = false;
         }
         else
         {
             targetPos = unactivePos.position;
-            isDone = false;
+            isDone = true;
         }
     }
 
     public void setDialog(Dialog dialog)
     {
+        Debug.Log("new!");
         dialog = dialog.getDialog();
         currentDialog = dialog;
         name.text = dialog.name; 
