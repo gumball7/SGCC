@@ -2777,6 +2777,7 @@ Transform:
   - {fileID: 657185934}
   - {fileID: 1140004063}
   - {fileID: 1840280520}
+  - {fileID: 1580917449}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3667,12 +3668,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580917447}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.98, y: -4.11, z: 15.97}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.98, y: -4.11, z: 25.970001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1288061502}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617384349
 GameObject:
@@ -4229,7 +4230,7 @@ MonoBehaviour:
     or interest.   '
   - 'Singapore has also put a lot of affort into its community centres, by integrating
     them with courses for the elderly such as embracing technology and keeping fit. '
-  - You can experience these courses by going right
+  - You can go to the right to view more posters
   name: Friendly CC assistant
   speakerImage: {fileID: 21300000, guid: 03761112a7021f24e9a9a551f51bbf48, type: 3}
 --- !u!212 &1653700231
