@@ -6,7 +6,7 @@ public class SpriteAnimBehaviour : MonoBehaviour
 {
     public double freq = 5;
     public float scale = 0.1f;
-    Vector3 initScale;
+    public Vector3 initScale;
 
     // Start is called before the first frame update
     void Start()

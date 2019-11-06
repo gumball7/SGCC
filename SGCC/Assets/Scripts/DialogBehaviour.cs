@@ -12,6 +12,8 @@ public class DialogBehaviour : MonoBehaviour
     public Text mainText;
     public Image speakerImage;
 
+    public bool isDone = false;
+
     private Vector3 targetPos;
 
     // Start is called before the first frame update
@@ -32,15 +34,18 @@ public class DialogBehaviour : MonoBehaviour
         if (active)
         {
             targetPos = activePos.position;
+            isDone = true;
         }
         else
         {
             targetPos = unactivePos.position;
+            isDone = false;
         }
     }
 
     public void setDialog(Dialog dialog)
     {
+        dialog = dialog.getDialog();
         currentDialog = dialog;
         name.text = dialog.name; 
         speakerImage.sprite = dialog.speakerImage;
@@ -51,7 +56,7 @@ public class DialogBehaviour : MonoBehaviour
     {
         if (currentDialog.sentences.Count == 0)
         {
-            setActive(false);
+            setActive(false);   
         }
         else
         {

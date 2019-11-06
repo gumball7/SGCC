@@ -34,4 +34,9 @@ public class Dialog : MonoBehaviour
         dialog.speakerImage = this.speakerImage;
         return dialog;
     }
+
+    public bool isDone()
+    {
+        return sentences.Count == 0;
+    }
 }
