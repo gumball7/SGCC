@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ScoreMenu.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\SocialUpdate.cs" />
+    <Compile Include="Assets\Scripts\SpriteAnimBehaviour.cs" />
     <Compile Include="Assets\Scripts\TreesGameManagerScript.cs" />
     <Compile Include="Assets\Scripts\UpdateEmotional.cs" />
     <Compile Include="Assets\Scripts\updatePhysical.cs" />
