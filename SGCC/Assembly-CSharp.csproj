@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DialogColliderStarter.cs" />
+    <Compile Include="Assets\EnterPutTeleScript.cs" />
     <Compile Include="Assets\Scripts\BoundaryBehaviour.cs" />
     <Compile Include="Assets\Scripts\CatcherBehaviour.cs" />
     <Compile Include="Assets\Scripts\CatcherBehavious.cs" />

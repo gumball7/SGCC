@@ -4025,6 +4025,7 @@ MonoBehaviour:
   name: {fileID: 1117584792}
   mainText: {fileID: 1419201592}
   speakerImage: {fileID: 649163459}
+  isDone: 0
 --- !u!1 &1635390129
 GameObject:
   m_ObjectHideFlags: 0
