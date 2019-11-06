@@ -12,6 +12,8 @@ public class EnterScript : MonoBehaviour
     public Vector2 baseScale;
     public string scene;
 
+    public bool enterButton = true;
+
     private bool isActive = false;
     private float state = 0;
 
@@ -43,7 +45,7 @@ public class EnterScript : MonoBehaviour
         textScale.y = scaleNum * baseScale.y;
         this.transform.GetChild(0).transform.localScale = textScale;
 
-        if (Input.GetKeyDown("return") && isActive)
+        if ((isActive  && !enterButton) || (isActive && Input.GetKeyDown("return")))
         {
             Debug.Log("Loading scene " + scene + "...");
             SceneManager.LoadScene(scene, LoadSceneMode.Single);
